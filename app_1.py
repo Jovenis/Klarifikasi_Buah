@@ -9,16 +9,16 @@ model = tf.keras.models.load_model("my_model2.hdf5")
 ### load file
 uploaded_file = st.file_uploader("Choose a image file", type="jpg")
 
-map_dict = {0: 'dog',
-            1: 'horse',
-            2: 'elephant',
-            3: 'butterfly',
-            4: 'chicken',
-            5: 'cat',
-            6: 'cow',
-            7: 'sheep',
-            8: 'spider',
-            9: 'squirrel'}
+map_dict = {0: 'Alpukat',
+            1: 'Apel',
+            2: 'Ceri',
+            3: 'Jeruk',
+            4: 'Kiwi',
+            5: 'Mangga',
+            6: 'Nanas',
+            7: 'Pisang',
+            8: 'Semangka',
+            9: 'Stroberi'}
 
 
 if uploaded_file is not None:
